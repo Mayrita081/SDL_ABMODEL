@@ -1,15 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "SDL_V1",
+			"path": "../SDL_V1"
 		},
 		{
 			"name": "CNY Test",
 			"path": "../CNY Test"
 		},
 		{
-			"name": "SDL_V1",
-			"path": "../SDL_V1"
+			"name": "MOTOR_TEST_V1",
+			"path": "."
 		}
 	],
 	"settings": {
