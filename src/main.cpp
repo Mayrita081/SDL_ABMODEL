@@ -36,16 +36,15 @@ void loop() {
   // Lee el estado de los sensores y lo imprime por el puerto serie
   Serial.println("Sensor States:");
   Serial.println("-----------------");
-  Serial.print("S1:\t");
+  Serial.print("\tS1:\t");
   Serial.println(digitalRead(S1));
-  Serial.print("S2:\t");
+  Serial.print("\tS2:\t");
   Serial.println(digitalRead(S2));
-  Serial.print("S3:\t");
+  Serial.print("\tS3:\t");
   Serial.println(digitalRead(S3));
-  Serial.print("S4:\t");
+  Serial.print("\tS4:\t");
   Serial.println(digitalRead(S4));
   Serial.print("\tS5:\t");
-  Serial.println(digitalRead(S5));
   Serial.println(digitalRead(S5));
   Serial.println("-----------------\n");
   delay(500); // Add a delay for better readability in the serial monitor
