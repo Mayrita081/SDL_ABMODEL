@@ -32,10 +32,24 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(IN1, LOW); // Activa el motor en la dirección 1
-  digitalWrite(IN2, LOW);  // Desactiva el motor en la dirección 2
-  digitalWrite(IN3, LOW); // Activa el motor en la dirección 3
-  digitalWrite(IN4, HIGH);  // Desactiva el motor en la dirección 4
+  // Bucle principal que se ejecuta continuamente
+  // Lee el estado de los sensores y lo imprime por el puerto serie
+  Serial.println("Sensor States:");
+  Serial.println("-----------------");
+  Serial.print("S1:\t");
+  Serial.println(digitalRead(S1));
+  Serial.print("S2:\t");
+  Serial.println(digitalRead(S2));
+  Serial.print("S3:\t");
+  Serial.println(digitalRead(S3));
+  Serial.print("S4:\t");
+  Serial.println(digitalRead(S4));
+  Serial.print("\tS5:\t");
+  Serial.println(digitalRead(S5));
+  Serial.println(digitalRead(S5));
+  Serial.println("-----------------\n");
+  delay(500); // Add a delay for better readability in the serial monitor
+
 
 
   
